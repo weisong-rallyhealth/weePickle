@@ -115,7 +115,7 @@ object StructTests extends TestSuite {
     }
 
     /**
-    * this test is inspired by PlayJson which returns Some(T) even when input is null
+     * this test is inspired by PlayJson which returns Some(T) even when input is null
       */
     test("optionWithNull should always return None") {
 
